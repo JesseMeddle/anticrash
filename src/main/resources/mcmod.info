@@ -1,0 +1,16 @@
+[
+{
+  "modid": "anticrash",
+  "name": "AntiCrash",
+  "description": "Prevents client crashes caused by Witherskulls and Fireworks",
+  "version": "version 0.2",
+  "mcversion": "1.12.2",
+  "url": "https://github.com/UriahC/anticrash",
+  "updateUrl": "",
+  "authorList": ["Uriah#1336"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

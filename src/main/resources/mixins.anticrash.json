@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "c.uriah.anticrash.mixin.mixins",
+  "refmap": "mixins.anticrash.refmap.json",
+  "mixins": [
+    "WorldMixin",
+    "MixinGuiIngameMenu",
+    "MixinRenderWitherSkull"
+  ]
+}
