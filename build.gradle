@@ -45,10 +45,6 @@ repositories {
 		name = 'spongepowered-repo'
 		url = 'https://repo.spongepowered.org/repository/maven-public/'
 	}
-	//for baritone
-	maven {
-        name = 'impactdevelopment-repo'
-        url = 'https://impactdevelopment.github.io/maven/'
     }
 	maven {
 		name = 'swt-repo'
@@ -57,10 +53,6 @@ repositories {
 	maven {
 		name = "jitpack.io"
 		url = "https://jitpack.io"
-	}
-	maven {
-		name = 'lukflug'
-		url = 'https://lukflug.github.io/maven'
 	}
 }
 
@@ -74,10 +66,6 @@ dependencies {
 	compile "com.github.ZeroMemes:Alpine:1.5"
 	compile group: 'net.jodah', name: 'typetools', version: '0.5.0'
 	compile group: "com.googlecode.json-simple", name: "json-simple", version: "1.1.1"
-	compile group: 'club.minnced', name: 'java-discord-rpc', version: '2.0.1'
-	compile 'com.github.cabaletta:baritone:1.2.14'
-	compile("com.lukflug:panelstudio:0.1.8")
-	compile("com.lukflug:panelstudio-mc12:0.1.8")
 }
 
 processResources {
